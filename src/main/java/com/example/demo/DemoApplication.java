@@ -14,7 +14,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("My Application is Started");
 		logger.info("Action performed successfully.");
-		System.out.println("My Application is Changes Logs")
+		System.out.println("My Application is Changes Logs");
+		logger.info("Action performed successfully after build.");
 	}
 
 }
